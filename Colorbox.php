@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-namespace himiklab\colorbox;
+namespace bariew\yii2Colorbox;
 
 use yii\base\Widget;
 use yii\helpers\Json;

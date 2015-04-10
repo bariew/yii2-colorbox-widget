@@ -1,5 +1,5 @@
 {
-    "name": "himiklab/yii2-colorbox-widget",
+    "name": "bariew/yii2-colorbox-widget",
     "description": "Customizable lightbox widget for Yii2",
     "keywords": ["yii2", "colorbox", "widget", "lightbox"],
     "type": "yii2-extension",
@@ -12,15 +12,19 @@
         {
             "name": "HimikLab",
             "homepage": "https://github.com/himiklab/"
+        },
+        {
+            "name": "Pavel Bariev",
+            "homepage": "http://anabena.com"
         }
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/jquery-colorbox": "1.5.*"
+        "bower-asset/jquery-colorbox": "*"
     },
     "autoload": {
         "psr-4": {
-            "himiklab\\colorbox\\": ""
+            "bariew\\yii2Colorbox\\": ""
         }
     }
 }
